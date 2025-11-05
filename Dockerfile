@@ -21,6 +21,7 @@ RUN --mount=target=/build,source=build \
     /build/run.sh setup-user
 
 EXPOSE 25565
+EXPOSE 24454
 
 ARG APPS_REV=1
 ARG GITHUB_BASEURL=https://github.com
